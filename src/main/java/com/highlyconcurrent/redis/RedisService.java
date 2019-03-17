@@ -21,6 +21,8 @@ public class RedisService {
         try {
             jedis = jedisPool.getResource();
             String str = jedis.get(key);
+            T t = stringToBean(str);
+            return t;
         } finally {
             returnToPool(redis);
         }
@@ -30,6 +32,10 @@ public class RedisService {
         if (jedis != null) {
             jedis.close();
         }
+    }
+
+    private T stringToBean(String str) {
+        return null;
     }
 
     @Bean
