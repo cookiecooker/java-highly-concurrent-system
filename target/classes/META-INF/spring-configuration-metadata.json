@@ -1,0 +1,47 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.highlyconcurrent.redis.RedisConfig",
+      "name": "redis",
+      "type": "com.highlyconcurrent.redis.RedisConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.highlyconcurrent.redis.RedisConfig",
+      "name": "redis.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.highlyconcurrent.redis.RedisConfig",
+      "name": "redis.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.highlyconcurrent.redis.RedisConfig",
+      "name": "redis.pool-max-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.highlyconcurrent.redis.RedisConfig",
+      "name": "redis.pool-max-total",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.highlyconcurrent.redis.RedisConfig",
+      "name": "redis.pool-max-wait",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.highlyconcurrent.redis.RedisConfig",
+      "name": "redis.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.highlyconcurrent.redis.RedisConfig",
+      "name": "redis.timeout",
+      "type": "java.lang.Integer"
+    }
+  ]
+}
